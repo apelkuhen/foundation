@@ -1,0 +1,175 @@
+body {
+	margin: 0;
+}
+.ba-15-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header {
+	background: url('img/bg_2.png') 50% 50% no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	position: relative;
+	background-attachment: fixed;
+}
+.menu_icon {
+	position: absolute;
+	/*top: calc(50% - 1px);*/
+	height: 2px;
+	width: 15px;
+	background-color: rgb(95,95,110);
+}
+.menu_icon_cont {
+	position: relative;
+	width:31px;
+	height: 31px;
+	cursor: pointer;
+	float: right;
+	/*padding-top: 20px;*/
+}
+.menu_icon_cont:hover{
+
+}
+.menu_icon:before {
+	position: absolute;
+	top:-10px;
+	content: '';
+	display: block;
+	height: 2px;
+	width: 31px;
+	background-color: rgb(95,95,110);
+}
+.menu_icon:after {
+	position: absolute;
+	bottom:-10px;
+	content: '';
+	display: block;
+	height: 2px;
+	width: 25px;
+	background-color: rgb(95,95,110);
+}
+
+.page-title {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	
+}
+.page-title li{
+	list-style: none;
+}
+.breadcrumbs a{
+	text-decoration: none;
+}
+/*.breadcrumbs a{
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.breadcrumbs {
+	text-align: center;
+}*/
+/*.name {
+	position: absolute;
+    top: 40%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+}*/
+.wrap{
+	width: 100%;
+	height: 100%;
+
+}
+.ba-width-1-4{
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(95,95,110); 
+	
+}
+.ba-width-1-4{
+	padding: 0 2%;
+	float: left;
+}
+.ba-width-1-4 h1{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.alone{
+	margin-top: 20px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(95,95,110); 
+}
+
+/*.breadcrumbs a:first-child(:after) {
+	content: "/";
+}*/
+@media only screen and (max-width: 1200px){
+	.ba-15-container{
+		padding:0 20px;
+	}
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+  	.ba-width-1-4{
+		width: 33.3%!important;
+	}
+
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 767px) {
+	.menu_icon_cont{
+		display: block;
+		position: fixed;
+		right:20px;
+		top:35px;
+		z-index: 4;
+	}
+	.fade.opened{
+		display: block;
+	}
+	.menu{
+		/*position: fixed;*/
+		/*top:0;
+		bottom:0;
+		right:-300px;*/
+		background-color: cyan;
+		/*padding: 40px;*/
+		z-index: 3;
+		width:300px;
+		transition: right 0.5s ease;
+		float: right;
+	}
+	.menu.opened{
+		right: 0;
+	}
+	.menu li{
+		display: block;
+		text-align: right;
+		padding: .8em;
+	}
+	.menu li a{
+		padding: .8em;
+		font-size: 2em;
+	}
+}
+	@media only screen 
+	and( min-width: 1200px){
+		.wrap{
+			padding: 0  20px;
+	}
+} 
+
+		.menu li{
+			display: inline-block;
+}
+

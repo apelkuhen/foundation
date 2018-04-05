@@ -1,0 +1,23 @@
+body{margin:0;height:100%}header{background:-webkit-gradient(
+      linear, 
+      left top, left bottom, 
+      from(rgba(255,255,255,0.45)), 
+      to(rgba(255,255,255,0.45))
+    ),
+    
+    url('../img/bg_2.png') 50% 50% no-repeat;background:-webkit-linear-gradient(
+      rgba(255,255,255,0.45), 
+      rgba(255,255,255,0.45)
+    ),
+    
+    url('../img/bg_2.png') 50% 50% no-repeat;background:-o-linear-gradient(
+      rgba(255,255,255,0.45), 
+      rgba(255,255,255,0.45)
+    ),
+    
+    url('../img/bg_2.png') 50% 50% no-repeat;background:linear-gradient(
+      rgba(255,255,255,0.45), 
+      rgba(255,255,255,0.45)
+    ),
+    
+    url('../img/bg_2.png') 50% 50% no-repeat;background-size:cover;min-height:500px;position:relative;background-attachment:fixed}.menu_icon{position:absolute;top:calc(50% - 1px);height:2px;width:15px;background-color:rgb(95,95,110)}.menu_icon_cont{position:relative;width:31px;height:31px;cursor:pointer;float:right;padding-top:20px}.menu_icon:hover{display:block;height:2px;width:31px}.menu_icon:hover:after{display:block;height:2px;width:31px;position:absolute;top:-10px;content:''}.menu_icon:hover:before{display:block;height:2px;width:31px;position:absolute}.menu_icon:before{position:absolute;top:-10px;content:'';display:block;height:2px;width:31px;background-color:rgb(95,95,110)}.menu_icon:after{position:absolute;bottom:-10px;content:'';display:block;height:2px;width:25px;background-color:rgb(95,95,110)}.page-title h1{font-family:'Montserrat', sans-serif;text-transform:uppercase;font-size:50px;color:rgba(0,0,0,.7);font-weight:700;vertical-align:middle}.page-title li{list-style:none;font-family:'Montserrat', sans-serif;text-transform:uppercase;height:100%;color:rgba(0,0,0,.7);font-weight:700}.breadcrumbs a{text-decoration:none}.page-title{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}
